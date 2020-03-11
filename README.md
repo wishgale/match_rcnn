@@ -2,7 +2,7 @@
 [READ.md in English](ENGLISH_README.md)   
 直播带货是淘宝连接商品和消费者的重要方式，买家在观看直播的过程对喜爱的商品进行购买。在单场直播中，主播常常会对成百上千的商品进行展示、试用和介绍，买家如果想购买正在讲解的商品，则需要在该直播关联的商品列表（包含成百上千个商品）中手动去挑选，非常影响用户的购买效率和用户体验。该项目能够通过商品识别的算法，根据直播视频的画面和主播的讲解，自动识别出当前讲解的商品，把对应的购买链接推荐给用户，将大大提升用户的购买体验。本赛题要求选手通过计算机视觉、自然语言处理等人工智能算法，把视频中正在讲解的商品识别出来，提升用户在淘宝直播中的购买体验。  
 
-项目细节请见：[比赛官网](https://tianchi.aliyun.com/competition/entrance/231772/introduction) [微信文章]() 
+项目细节请见：[比赛官网](https://tianchi.aliyun.com/competition/entrance/231772/introduction) [微信文章](https://mp.weixin.qq.com/s?__biz=MzUyNzA1OTcxNg==&mid=2247483692&idx=1&sn=34c1737ab81e8d75246ef8dde5549732&chksm=fa041f47cd7396516b2efbceafb6baf26a272847667671b1510106537617d01a2412d71e197c&token=266731819&lang=zh_CN#rd) 
 ### 1. 环境配置  
 请自行安装[mmdetection](https://github.com/open-mmlab/mmdetection)环境配置。  
 ### 2. 数据准备
@@ -128,3 +128,9 @@ CUDA_VISIBLE_DEVICES=4,5 PORT=29501 tools/dist_train.sh configs/baseline_config.
 ```
 python tools/train_mm.py
 ```
+### 修改点：
+1. ``match_rcnn/mmdetection/data/coco``：放置了数据准备相关的代码。  
+2. ``match_rcnn/mmdetection/mmdet/core/evaluation/class_name.py``：修改了类别信息。  
+3. ``match_rcnn/mmdetection/mmdet/datasets/coco.py``：修改了类别信息。  
+4. ``match_rcnn/mmdetection/configs/baseline_config.py``: 修改了``faster_rcnn_r50_fpn_1x.py``配置文件。  
+5. ``match_rcnn/mmdetection/tools``：加入了``prepare_img_meta.py``和``train_mm.py``代码以进行匹配网络的数据准备和训练。  

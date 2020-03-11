@@ -2,7 +2,7 @@
 [READ.md 中文版](README.md)   
 Live broadcast with products is an important way for Taobao to connect products and consumers. Buyers buy their favorite products in the process of watching live broadcast. In a single live broadcast, the host often shows, tries and introduces hundreds of products. If the buyer wants to buy the products being explained, he needs to select them manually in the list of commodities (including hundreds of commodities) associated with the live broadcast, which greatly affects the purchase efficiency and user experience of the user. This project can automatically identify the currently explained products according to the live video screen and the host's explanation through the algorithm of product identification, and recommend the corresponding purchase link to the user, which will greatly improve the user's purchase experience. This competition requires the contestants to identify the products being explained in the video through artificial intelligence algorithms such as computer vision and natural language processing, so as to improve the purchase experience of users in Taobao live broadcast.  
 
-More details, please visit：[Competition Web](https://tianchi.aliyun.com/competition/entrance/231772/introduction) [Competition Article]()
+More details, please visit：[Competition Web](https://tianchi.aliyun.com/competition/entrance/231772/introduction) [Competition Article](https://mp.weixin.qq.com/s?__biz=MzUyNzA1OTcxNg==&mid=2247483692&idx=1&sn=34c1737ab81e8d75246ef8dde5549732&chksm=fa041f47cd7396516b2efbceafb6baf26a272847667671b1510106537617d01a2412d71e197c&token=266731819&lang=zh_CN#rd)
 ### 1. Environment Installment  
 Please install [mmdetection](https://github.com/open-mmlab/mmdetection) environment by your own。  
 ### 2. Data Preparation
@@ -128,3 +128,9 @@ Change the content of ``load_from`` in ``baseline_config.py`` to point to the pa
 ```
 python tools/train_mm.py
 ```
+### Modification:
+1. ``match_rcnn/mmdetection/data/coco``：the codes for data preparation。  
+2. ``match_rcnn/mmdetection/mmdet/core/evaluation/class_name.py``：change class information。  
+3. ``match_rcnn/mmdetection/mmdet/datasets/coco.py``：change class information。  
+4. ``match_rcnn/mmdetection/configs/baseline_config.py``: modify ``faster_rcnn_r50_fpn_1x.py``。  
+5. ``match_rcnn/mmdetection/tools``：add ``prepare_img_meta.py`` and ``train_mm.py`` to prepare data and train matching network。  
