@@ -1,0 +1,114 @@
+--2020-03-04 00:25:43--  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在解析主机 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)... 52.219.58.37
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:27:55--  (尝试次数： 2)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:30:07--  (尝试次数： 3)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:32:21--  (尝试次数： 4)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:34:35--  (尝试次数： 5)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:36:51--  (尝试次数： 6)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:39:07--  (尝试次数： 7)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:41:23--  (尝试次数： 8)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:43:42--  (尝试次数： 9)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:46:00--  (尝试次数：10)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 00:48:20--  (尝试次数：11)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 已连接。
+已发出 HTTP 请求，正在等待回应... 200 OK
+长度： 167293562 (160M) [application/x-www-form-urlencoded]
+正在保存至: “faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth.1”
+
+     0K .......... .......... .......... .......... ..........  0% 3.21K 14h8m
+    50K .......... .......... .......... .......... ..........  0% 9.31K 9h30m
+   100K .......... .......... .......... .......... ..........  0% 5.35K 9h9m
+   150K .......... .......... .......... .......... ..........  0% 7.20K 8h26m
+   200K .......... .......... .......... .......... ..........  0% 7.25K 8h0m
+   250K .......... .......... .......... .......... ..........  0% 5.24K 8h6m
+   300K .......... .......... .......... .......... ..........  0% 14.7K 7h23m
+   350K .......... .......... .......... .......... ..........  0% 6.73K 7h18m
+   400K .......... .......... .......... .......... ..........  0% 8.05K 7h6m
+   450K .......... .......... .......... .......... ..........  0% 5.69K 7h11m
+   500K .......... .......... .......... .......... ..........  0% 7.51K 7h5m
+   550K .......... .......... .......... .......... ..........  0% 14.6K 6h45m
+   600K .......... .......... .......... .......... ..........  0% 8.08K 6h39m
+   650K .......... .......... .......... .......... ..........  0% 2.86K 7h18m
+   700K .......... .......... .......... .......... ..........  0% 3.48K 7h41m
+   750K .......... .......... .......... .......... ..........  0% 6.19K 7h39m
+   800K .......... .......... .......... .......... ..........  0% 3.64K 7h56m
+   850K .......... .......... .......... .......... ..........  0% 5.60K 7h56m
+   900K .......... .......... .......... .......... ..........  0% 3.59K 8h10m
+   950K .......... .......... .......... .......... ..........  0% 2.58K 8h38m
+  1000K .......... .......... .......... .......... ..........  0% 2.33K 9h9m
+  1050K .......... .......... .......... .......... ..........  0% 3.31K 9h21m
+  1100K .......... .......... .......... .......... ..........  0% 2.50K 9h43m
+  1150K .......... .......... .......... .......... ..........  0% 2.76K 9h59m
+  1200K .......... .......... .......... .......... ..........  0% 3.01K 10h11m
+  1250K .......                                                 0% 30.8K=4m43s
+
+2020-03-04 01:08:05 (4.44 KB/s) - 在 1287788/167293562 字节处发生读取错误 (成功)。 重试中。
+
+--2020-03-04 01:08:15--  (尝试次数：12)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.58.37|:443... 失败：连接超时。
+正在解析主机 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)... 52.219.60.12
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:12:47--  (尝试次数：13)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:15:06--  (尝试次数：14)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:17:25--  (尝试次数：15)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:19:44--  (尝试次数：16)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:22:04--  (尝试次数：17)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:24:23--  (尝试次数：18)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:26:42--  (尝试次数：19)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+重试中。
+
+--2020-03-04 01:29:01--  (尝试次数：20)  https://s3.ap-northeast-2.amazonaws.com/open-mmlab/mmdetection/models/faster_rcnn_r50_fpn_1x_20181010-3d1b3351.pth
+正在连接 s3.ap-northeast-2.amazonaws.com (s3.ap-northeast-2.amazonaws.com)|52.219.60.12|:443... 失败：连接超时。
+放弃操作。
+
