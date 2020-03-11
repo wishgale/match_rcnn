@@ -1,8 +1,8 @@
 ## 天池新品实验室: 淘宝直播商品识别
-[READ.md in English version](ENGLISH_README.md) 
+[READ.md in English](ENGLISH_README.md)   
 直播带货是淘宝连接商品和消费者的重要方式，买家在观看直播的过程对喜爱的商品进行购买。在单场直播中，主播常常会对成百上千的商品进行展示、试用和介绍，买家如果想购买正在讲解的商品，则需要在该直播关联的商品列表（包含成百上千个商品）中手动去挑选，非常影响用户的购买效率和用户体验。该项目能够通过商品识别的算法，根据直播视频的画面和主播的讲解，自动识别出当前讲解的商品，把对应的购买链接推荐给用户，将大大提升用户的购买体验。本赛题要求选手通过计算机视觉、自然语言处理等人工智能算法，把视频中正在讲解的商品识别出来，提升用户在淘宝直播中的购买体验。  
 
-项目细节请见：[]() 
+项目细节请见：[比赛官网](https://tianchi.aliyun.com/competition/entrance/231772/introduction) [微信文章]() 
 ### 1. 环境配置  
 请自行安装[mmdetection](https://github.com/open-mmlab/mmdetection)环境配置。  
 ### 2. 数据准备
@@ -10,7 +10,7 @@
 - ``data_prepare.py``: 获取``images``和``video_images``图片文件夹（分别存放图片库图片和视频库切片图）。同时生成``trainval.json``。  
 - ``add_keys.py``: 给标注文件key:``annotaions``下加入标注的``id``。  
 - ``create_val.py``: 分层抽样式划分数据集得到``train.json``和``val.json``。  
-- ``prepare_img_meta.py``：返回三个文件 - ``./img_meta/<fn>.pth``和``/pos_pair_dict.json``），他们分别是保存各图片的metadata，和各图片的匹配正对图片的文件名们。 
+- ``prepare_img_meta.py``：返回两个文件 - ``./img_meta/<fn>.pth``和``/pos_pair_dict.json``），他们分别是保存各图片的metadata，和各图片的匹配正对图片的文件名们。 
 ```
 python data_prepare.py
 python add_keys.py
@@ -83,16 +83,6 @@ python prepare_img_meta.py
     {'i_123_1321.jpg':[i_124_131.jpg, i_213_213.jpg, v_213_1231,jpg ...],
      'i_234_1241.jpg':[],
         ...}
-```
-``/all_img_fns.txt``记录了所有图片的名称。
-```
-{
-	'i_123_1321.jpg'
-	'i_129_1321.jpg'
-	'i_125_1321.jpg'
-	'v_173_1321.jpg'
-	...
-}
 ```
 23类类别信息如下：
 ```
